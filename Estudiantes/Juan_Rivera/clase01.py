@@ -46,5 +46,13 @@ multiplicacion = 10 * 5
 print(f"la multiplicación es: {multiplicacion}")
 
 #División
-division = 10 / 5
+division = 10 / 3
 print(f"la división es: {division}")
+
+#División Entera
+division_entera = 10 // 3
+print(f"la división entera es: {division_entera}")
+
+#División Módulo
+modulo = 33 % 2
+print(f"El módulo es: {modulo}")
