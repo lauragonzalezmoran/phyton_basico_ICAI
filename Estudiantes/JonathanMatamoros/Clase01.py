@@ -24,8 +24,13 @@ print(f"Bienvenido: {nombre},su edad es {edad}")
 
 #suma
 suma = 5 + 3 
-print(f"El resultado es:(suma)")
+print(f"El resultado es: {suma} ")
 
 #resta
 resta = 10 - 5 
-print(f"El resultado es: (resta)")
+print(f"la resta es: {resta}")
+
+#multiplicación
+
+multiplicación = 10 * 5
+print(f"el resultado es multiplicación: {multiplicación}")
