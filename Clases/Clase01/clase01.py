@@ -1,5 +1,10 @@
-print('Bienvenidos a Python Basico')
-linea2 = '\n Programa de la clase 1'
-print('Grupo 1 de Python' + linea2 )
+""" DocStrings
+    Esto es un comentario de multiples lineas
+    Código: estos son los ejemplos vistos en la clase 1.
+    Autor: Andrés Mena A.
+"""
 
-#Cambio de colaborador
+linea2 = '\nPrograma Clase 1' # \n caracter especial que representa un salto de linea
+print('Bienvenidos al curso de Python' + linea2) # Esto es un mensaje de bienvenida
+
+print("Hola",linea2)
