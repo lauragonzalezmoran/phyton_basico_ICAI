@@ -48,5 +48,32 @@ edad = input('Ingrese su edad:')
 print(f"Bienvenido:{nombre},su edad es:{edad}")
 print("Bienvenido:",nombre, "su edad es:", edad)
 
+""" Operadores
+"""
+
+#Suma
+suma = 5 + 3 
+print(f"La suma es: {suma}")
+
+#Resta
+resta = 5 - 3 
+print(f"La resta es: {resta}")
+
+#Multiplicación
+multiplicacion = 5 * 3 
+print(f"La multiplicación es: {multiplicacion}")
+
+# Division
+division = 25/5
+print(f"La division es: {division}")
+
+#División entera 
+division_entera = 10//3
+print(f"La division es: {division_entera}")
+
+#División modular 
+modulo = 33 % 2
+print(f"La division es: {modulo}")
+
 
 
