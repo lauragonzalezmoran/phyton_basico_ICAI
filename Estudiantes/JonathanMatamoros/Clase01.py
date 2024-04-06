@@ -6,3 +6,16 @@
 
 linea2 = '\n Programa Clase 1' # \n Programa de la clase 1)
 print('Bienvenidos a clase de Python' + linea2) # mensaje bienvenida
+
+#asignación de tipos de variables
+mensaje = 'Hola mundo desde python'
+numero = 2024
+version = 2.1  # variable tipo flot
+visible = False
+
+print(mensaje,numero,version,visible)
+
+#Leer datos
+nombre = input('Cual es su nombre   '  )
+edad = input('ingrese su edad:   ')
+print(f"Bienvenido: {nombre},su edad es {edad}")
