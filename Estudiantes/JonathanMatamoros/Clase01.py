@@ -19,3 +19,13 @@ print(mensaje,numero,version,visible)
 nombre = input('Cual es su nombre   '  )
 edad = input('ingrese su edad:   ')
 print(f"Bienvenido: {nombre},su edad es {edad}")
+
+
+
+#suma
+suma = 5 + 3 
+print(f"El resultado es:(suma)")
+
+#resta
+resta = 10 - 5 
+print(f"El resultado es: (resta)")
