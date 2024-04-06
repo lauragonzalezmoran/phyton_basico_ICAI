@@ -57,5 +57,9 @@ division = 10 / 5
 print(f"la división es:{division}")
 
 #division entera
-division_entera = 10 // 5
+division_entera = 10 // 3
 print(f"la división entera es: {division_entera}")
+
+#division modulular o operador de modulo (devuelve el residuo de una división entera)
+modulo = 10 % 5
+print(f"el módulo es: {modulo}")
