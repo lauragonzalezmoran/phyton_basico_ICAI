@@ -26,3 +26,18 @@ Nombre = input("Cual es su nombre? : ")
 Edad = input("Cual es su edad: ")
 
 print(f"Bienvenido {Nombre}, su edad es {Edad}")
+
+Suma = 5 + 3
+print(f"El resultado de la suma es: {Suma}")
+
+Resta = 12 - 3
+print(f"El resultado de la resta es: {Resta}")
+
+Multiplicacion = 10 * 5
+print(f"El resultado de la multiplicacion es: {Multiplicacion}")
+
+Division = 10 / 5
+print(f"El resultado de la division es: {Division}")
+
+Division_Entera = 10 // 5
+print(f"El resultado de la division entera es: {Division_Entera}")
