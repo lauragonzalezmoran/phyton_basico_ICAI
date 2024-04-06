@@ -55,3 +55,7 @@ print(f"la multiplicación es:{multiplicacion}")
 #division
 division = 10 / 5
 print(f"la división es:{division}")
+
+#division entera
+division_entera = 10 // 5
+print(f"la división entera es: {division_entera}")
