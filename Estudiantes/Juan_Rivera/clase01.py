@@ -32,3 +32,19 @@ nombre = input('¿Cuál es su nombre? ')
 edad = input('Ingrese su edad: ')
 print(f"Bienvenido: {nombre}, su edad es {edad}")
 print("Bienvenido:", nombre, ", su edad es", edad)
+
+#suma
+suma = 5 + 3
+print(f"La suma es: {suma}")
+
+#resta
+resta = 10 - 5
+print(f"la resta es: {resta}")
+
+#multiplicación
+multiplicacion = 10 * 5
+print(f"la multiplicación es: {multiplicacion}")
+
+#División
+division = 10 / 5
+print(f"la división es: {division}")
