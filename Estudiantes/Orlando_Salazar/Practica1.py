@@ -51,8 +51,47 @@ totalTime = total_secs * 42
 
 #Step 4: PROCESS: Convert this new total using the hh:mm:ss format. (e.g 3:47:30)
 #...
+# Get minutes and seconds
+mm, ss = divmod(totalTime, 60)
 
+# Get hours and minutes
+hh, mm = divmod(mm, 60)
 
 #Step 5: OUTPUT: Display this new total on screen (using the hh:mm:ss format). (e.g 3:47:30)
 #...
-print(f"The total time is: {totalTime}")
+#print(f"The total time is: {totalTime}")
+print(f"Time in hh:mm:ss: {hh}:{mm}:{ss}")
+
+
+#Time Conversiobr - www.101computing.net/time-conversion/ 
+
+time = input("Enter a time in the hh:mm format (e.g 18:36): ")
+
+#Complete the code here...
+
+hours = int(time[:2])
+
+minutes = int(time[-2:])
+
+#print(hours,minutes)
+
+if hours == 0:
+    hours = 12
+    print(f"{hours}:{minutes} am")
+elif hours < 12:
+    print(f"{hours}:{minutes} am")
+elif hours == 12:
+    print(f"{hours}:{minutes} pm")
+elif hours < 24:
+    hours = hours - 12
+    print(f"{hours}:{minutes} pm")
+
+
+
+
+
+
+
+
+
+
