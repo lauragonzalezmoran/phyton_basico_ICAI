@@ -326,8 +326,7 @@ código Python de forma legible, consistente y mantenible. Estas
 convenciones abarcan desde el estilo de nombrado de variables hasta la
 estructura del código.
 
-## 1. Nombrado: {#1-nombrado}
-
+## 1. Nombrado: 
 -   **Letras y guiones bajos:** Los nombres de variables, funciones,
     clases y módulos deben comenzar con una letra o guion bajo y pueden
     contener letras, números y guiones bajos.
@@ -342,14 +341,13 @@ estructura del código.
     Palabras reservadas: Evita usar palabras clave del lenguaje Python
     como nombres de variables.
 
-## 2. Sangría: {#2-sangría}
-
+## 2. Sangría: 
 -   **Bloques de código:** La sangría (generalmente 4 espacios) se
     utiliza para definir bloques de código dentro de funciones, bucles,
     condicionales, etc. La sangría consistente es crucial para la
     legibilidad del código.
 
-## 3. Comentarios: {#3-comentarios}
+## 3. Comentarios: 
 
 -   **Docstrings:** Se utilizan para documentar funciones, clases y
     módulos. Proporcionan información sobre su propósito, parámetros y
@@ -357,7 +355,7 @@ estructura del código.
 -   **Comentarios en línea:** Se utilizan para explicar partes
     específicas del código y mejorar la comprensión del mismo.
 
-## 4. Espacios en blanco: {#4-espacios-en-blanco}
+## 4. Espacios en blanco: 
 
 -   **Separadores:** Se utilizan espacios en blanco alrededor de
     operadores, después de comas, antes y después de paréntesis,
@@ -372,7 +370,7 @@ estructura del código.
 -   **Funciones y clases de otros módulos:** Se importan utilizando la
     instrucción from `<modulo>`{=html} import `<nombre>`{=html}.
 
-#Beneficios de usar las convenciones de Python:
+# Beneficios de usar las convenciones de Python:
 
 -   **Legibilidad:** El código es más fácil de leer y comprender para
     otros programadores.
