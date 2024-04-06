@@ -73,7 +73,7 @@ print(f"La division es: {division_entera}")
 
 #División modular 
 modulo = 33 % 2
-print(f"La division es: {modulo}")
+print(f"El modulo es: {modulo}")
 
 
 
