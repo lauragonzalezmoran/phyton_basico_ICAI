@@ -34,7 +34,24 @@ print(type(mensaje))
 
 
 #leer datos
-nombre = input('¿cual es su edad?
+nombre = input('¿cual es su edad?')
 edad = input('Ingrese su edad: ')
 print(f"Bienvenido: [nombre], su edad es [edad]")
 print("bievenido", nombre, "su edad es ", edad)
+
+
+#suma
+suma = 5 + 3
+print(f"la suma es:{suma}")
+
+#resta
+resta = 10 - 5
+print(f"la resta es:{resta}")
+
+#multiplicacion
+multiplicacion = 10 * 5
+print(f"la multiplicación es:{multiplicacion}")
+
+#division
+division = 10 / 5
+print(f"la división es:{division}")
