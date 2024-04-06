@@ -24,6 +24,18 @@ numero=122
 numero2=233.4
 bandera= True
 print (type(numero))
-print (type(linea))
+print (type(linea1))
 print (type(bandera))
 print (type(numero2))
+
+
+#assignacion en tupla
+bandera, numero, numero2= True, 3,3.4
+
+nombre= input ('Cual es tu nombre')
+print (nombre)
+
+print (f"Bienvenido: (nombre), su edad es ")
+
+suma= 1+2
+print (f"la suma es: {suma}")
