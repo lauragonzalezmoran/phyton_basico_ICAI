@@ -1,4 +1,7 @@
-Nombre = input("Cual es su nombre? : ")
-Edad = input("Cual es su edad: ")
+GradosC = input("Digite los grados centigrados que desea convertir a fahrenheit: ")
 
-print(f"Bienvenido {Nombre}, su edad es {Edad}")
+GradosF = (float(GradosC) * 1.8) + 32
+
+Resp_redondeada = str(round(GradosF, 2))
+
+print(f"Los grados fahrenheit son: {Resp_redondeada}")
