@@ -27,3 +27,7 @@ print(x > y) #True
 x = 10
 y = 15
 print(x >= y) #True
+
+a = "Hola"
+b = "Hola"
+a == b
