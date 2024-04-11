@@ -39,3 +39,9 @@ print (f"Bienvenido: (nombre), su edad es ")
 
 suma= 1+2
 print (f"la suma es: {suma}")
+divisionEntera= 10//3
+print (f"la division entera es: {divisionEntera}")
+
+
+divisionModular= 10%3
+print (f"la division entera es: {divisionModular}")
